@@ -92,7 +92,7 @@ jobs:
 
   unit-test-python:
     runs-on: ubuntu-latest
-    container: gcr.io/kf-feast/feast-ci:latest
+    # container: gcr.io/kf-feast/feast-ci:latest
     strategy:
       matrix:
         python-version: [3.6, 3.7, 3.8]
